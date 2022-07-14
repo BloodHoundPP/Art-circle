@@ -1,0 +1,64 @@
+.competition {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    -webkit-animation: fade1 16s ease-in-out infinite;
+    animation: fade 16s ease-in-out infinite;
+    -webkit-transition: 600ms;
+    -o-transition: 600ms;
+    transition: 600ms;
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgba(22, 21, 21, 0.555);
+   
+
+
+}
+
+
+
+@keyframes fade1 {
+
+    0%,
+    100% {
+        background-image: url('../img/Art_circle/Firodiya/firo5.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+
+    }
+
+    20% {
+        background-image: url('../img/Art_circle/Firodiya/firo6.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+
+    40% {
+        background-image: url('../img/Art_circle/Firodiya/firo7.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+       
+    }
+
+    60% {
+        background-image: url('../img/Art_circle/Firodiya/firo8.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+    80% {
+        background-image: url('../img/Art_circle/Firodiya/firo9.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+   
+}

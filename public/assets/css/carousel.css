@@ -1,0 +1,121 @@
+.achievements {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    -webkit-animation: fade 16s ease-in-out infinite;
+    animation: fade 16s ease-in-out infinite;
+    -webkit-transition: 600ms;
+    -o-transition: 600ms;
+    transition: 600ms;
+    background-size: cover;
+}
+
+@media(max-width:879px) 
+{
+.achievements {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    -webkit-animation: fade2 16s ease-in-out infinite;
+    animation: fade2 16s ease-in-out infinite;
+    -webkit-transition: 600ms;
+    -o-transition: 600ms;
+    transition: 600ms;
+    background-size: cover;
+}
+
+}
+
+@keyframes fade {
+
+    0%,
+    100% {
+        background-image: url('../img/Art_circle/background/firo1.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+
+    }
+
+    20% {
+        background-image: url('../img/Art_circle/background/firo2.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+
+    40% {
+        background-image: url('../img/Art_circle/background/firo3.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+       
+    }
+
+    60% {
+        background-image: url('../img/Art_circle/background/general4.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+
+    80% {
+        background-image: url('../img/Art_circle/background/kaushal2.jpeg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+}
+
+@keyframes fade2 {
+
+    0%,
+    100% {
+        background-image: url('../img/Art_circle/background/firo1.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+
+    }
+
+    20% {
+        background-image: url('../img/Art_circle/background/firo2.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+
+    40% {
+        background-image: url('../img/Art_circle/background/firo3.JPG') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+       
+    }
+
+    60% {
+        background-image: url('../img/Art_circle/background/general4.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+
+    80% {
+        background-image: url('../img/Art_circle/background/kaushal.jpeg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    }
+}

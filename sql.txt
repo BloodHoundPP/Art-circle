@@ -1,0 +1,2 @@
+create table ccusers (id varchar(30) not null unique, password varchar(100), name varchar(30));
+create table queries ( Name varchar(30), Email varchar(30), Subject varchar(30), Message varchar(500), Club varchar(20), Time datetime(6));
